@@ -4,7 +4,7 @@
 git clone https://github.com/barblin/clusterization-service.git
 git clone https://github.com/barblin/clusterization-ui.git
 
-chmod 755 -R ./
+chmod 777 -R ./
 
 cd ./clusterization-service
 gnome-terminal -e ./setup.sh
